@@ -511,6 +511,27 @@ input[type="number"]::-webkit-outer-spin-button {
     font-size: 20px;
   }
 
+  .tenth-number {
+    font-size: 14px;
+  }
+
+  .tenth-amount {
+    font-size: 16px;
+  }
+
+  .remaining {
+    padding: 16px;
+    font-size: 15px;
+  }
+
+  .remaining-label {
+    font-size: 15px;
+  }
+
+  .remaining-amount {
+    font-size: 20px;
+  }
+
   .modal-content {
     padding: 25px 20px;
   }
@@ -551,6 +572,27 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 45px;
     height: 45px;
     font-size: 20px;
+  }
+
+  .tenth-number {
+    font-size: 13px;
+  }
+
+  .tenth-amount {
+    font-size: 15px;
+  }
+
+  .remaining {
+    padding: 14px;
+    font-size: 14px;
+  }
+
+  .remaining-label {
+    font-size: 14px;
+  }
+
+  .remaining-amount {
+    font-size: 18px;
   }
 }
 
