@@ -11,8 +11,7 @@ export const TenthsResults = ({ results, translations, formatNumber }) => {
         {results.tenths.map((tenth) => (
           <div key={tenth.number} className="tenth-item">
             <span className="tenth-number">
-              <span className="percent-badge">({tenth.percent}%)</span>
-              {tenth.number}.
+              <span className="percent-badge">{tenth.number}. ({tenth.percent}%)</span>
             </span>
             <span className="tenth-amount">
               {formatNumber(tenth.amount)}

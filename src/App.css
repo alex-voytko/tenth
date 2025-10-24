@@ -233,7 +233,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .percent-badge {
   display: inline-block;
-  min-width: 65px;
   text-align: left;
 }
 
