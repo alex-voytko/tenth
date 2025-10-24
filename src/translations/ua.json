@@ -1,0 +1,18 @@
+{
+  "title": "Калькулятор Відсотків",
+  "inputLabel": "Введіть суму:",
+  "inputPlaceholder": "Наприклад: 100000",
+  "resultsTitle": "Результати:",
+  "remainingLabel": "Залишок:",
+  "themeToggle": "Перемкнути тему",
+  "settingsButton": "Налаштування",
+  "settingsTitle": "Налаштування відсотків",
+  "percentLabel": "Відсоток",
+  "addPercent": "Додати відсоток",
+  "removePercent": "Видалити відсоток",
+  "percentError": "Значення має бути від 1 до 100",
+  "saveButton": "Зберегти",
+  "cancelButton": "Скасувати",
+  "resetButton": "Скинути до замовчування"
+}
+

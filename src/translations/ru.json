@@ -1,0 +1,18 @@
+{
+  "title": "Калькулятор Процентов",
+  "inputLabel": "Введите сумму:",
+  "inputPlaceholder": "Например: 100000",
+  "resultsTitle": "Результаты:",
+  "remainingLabel": "Остаток:",
+  "themeToggle": "Переключить тему",
+  "settingsButton": "Настройки",
+  "settingsTitle": "Настройки процентов",
+  "percentLabel": "Процент",
+  "addPercent": "Добавить процент",
+  "removePercent": "Удалить процент",
+  "percentError": "Значение должно быть от 1 до 100",
+  "saveButton": "Сохранить",
+  "cancelButton": "Отмена",
+  "resetButton": "Сбросить по умолчанию"
+}
+

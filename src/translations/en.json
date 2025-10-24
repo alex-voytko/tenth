@@ -1,0 +1,18 @@
+{
+  "title": "Percentage Calculator",
+  "inputLabel": "Enter amount:",
+  "inputPlaceholder": "For example: 100000",
+  "resultsTitle": "Results:",
+  "remainingLabel": "Remaining:",
+  "themeToggle": "Toggle theme",
+  "settingsButton": "Settings",
+  "settingsTitle": "Percentage Settings",
+  "percentLabel": "Percentage",
+  "addPercent": "Add percentage",
+  "removePercent": "Remove percentage",
+  "percentError": "Value must be between 1 and 100",
+  "saveButton": "Save",
+  "cancelButton": "Cancel",
+  "resetButton": "Reset to default"
+}
+
