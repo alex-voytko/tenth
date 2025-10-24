@@ -85,7 +85,7 @@ export const TenthInput = ({ translations, onCalculate, percentages, currencySym
           value={displayValue}
           onChange={handleInputChange}
           placeholder={translations.inputPlaceholder}
-          inputMode="numeric"
+          inputMode="decimal"
         />
       </div>
     </div>
