@@ -40,6 +40,7 @@ export const TenthInput = ({ translations, onCalculate, percentages, currencySym
 
     let remaining = initialAmount
     const tenths = []
+    let totalPercentages = 0
 
     // Calculate percentages dynamically
     percentages.forEach((percent, index) => {
@@ -50,10 +51,12 @@ export const TenthInput = ({ translations, onCalculate, percentages, currencySym
         amount: amount
       })
       remaining = remaining - amount
+      totalPercentages += amount
     })
 
     onCalculate({
       tenths,
+      totalPercentages,
       remaining
     })
   }

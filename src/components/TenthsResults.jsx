@@ -21,11 +21,19 @@ export const TenthsResults = ({ results, translations, formatNumber }) => {
         ))}
       </div>
 
-      <div className="remaining">
-        <span className="remaining-label">{translations.remainingLabel}</span>
-        <span className="remaining-amount">
-          {formatNumber(results.remaining)}
-        </span>
+      <div className="summary-container">
+        <div className="remaining">
+          <span className="remaining-label">{translations.totalPercentagesLabel}</span>
+          <span className="remaining-amount">
+            {formatNumber(results.totalPercentages)}
+          </span>
+        </div>
+        <div className="remaining">
+          <span className="remaining-label">{translations.remainingLabel}</span>
+          <span className="remaining-amount">
+            {formatNumber(results.remaining)}
+          </span>
+        </div>
       </div>
     </div>
   )
