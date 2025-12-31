@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react'
 import en from '../translations/en.json'
 import ua from '../translations/ua.json'
-import ru from '../translations/ru.json'
 import { DEFAULT_LANGUAGE } from '../constants/languages'
 
-const translations = { en, ua, ru }
+const translations = { en, ua }
 
 export const useLanguage = () => {
   const [language, setLanguage] = useState(() => {

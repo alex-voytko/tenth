@@ -64,6 +64,51 @@
   border-bottom: 1px solid var(--border-color);
 }
 
+.tabs-container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  max-width: 700px;
+  width: 100%;
+  justify-content: center;
+}
+
+.tab-button {
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  white-space: nowrap;
+}
+
+.tab-button:hover {
+  color: var(--text-primary);
+  background: var(--item-bg);
+}
+
+.tab-button.active {
+  color: var(--accent-color);
+  border-bottom-color: var(--accent-color);
+  font-weight: 600;
+}
+
+.tab-button.active:hover {
+  color: var(--accent-color);
+}
+
+.tab-content-placeholder {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
 .language-select,
 .currency-select {
   background: var(--item-bg);
@@ -261,6 +306,28 @@ input[type="number"]::-webkit-outer-spin-button {
   font-weight: 500;
   color: var(--text-secondary);
   transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.color-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.total-amount-row {
+  border-top: 1px solid var(--border-color);
+  margin-top: 0;
+}
+
+.total-amount-label {
+  font-size: 20px;
+  color: var(--text-primary);
+  font-weight: 600;
 }
 
 .remaining-amount {
@@ -268,6 +335,28 @@ input[type="number"]::-webkit-outer-spin-button {
   font-weight: 700;
   color: var(--text-primary);
   transition: color 0.3s ease;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  min-height: 150px;
+  max-height: 400px;
+  border-radius: 10px;
+  background: var(--item-bg);
+  transition: background-color 0.3s ease;
+}
+
+.chart-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.6);
+  transform-origin: center center;
 }
 
 /* Modal Styles */
@@ -392,6 +481,52 @@ input[type="number"]::-webkit-outer-spin-button {
   font-weight: 500;
 }
 
+.tax-rate-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tax-rate-input {
+  width: 120px;
+  padding: 15px 12px;
+  font-size: 18px;
+  border: 2px solid var(--input-border);
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  background: var(--container-bg);
+  color: var(--text-primary);
+}
+
+.tax-rate-input:focus {
+  outline: none;
+  border-color: var(--input-focus);
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: var(--accent-color);
+}
+
+.checkbox-label {
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+  font-size: 16px;
+  color: var(--text-primary);
+  transition: color 0.3s ease;
+}
+
 .remove-button {
   background: #e74c3c;
   color: white;
@@ -487,6 +622,58 @@ input[type="number"]::-webkit-outer-spin-button {
   background: var(--border-color);
 }
 
+.settings-payments,
+.settings-investments {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.investments-details-table {
+  margin-top: 30px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 10px;
+  background: var(--item-bg);
+  padding: 20px;
+}
+
+.details-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.details-table thead {
+  background: var(--container-bg);
+}
+
+.details-table th {
+  padding: 12px 8px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-primary);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.details-table td {
+  padding: 10px 8px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.details-table tbody tr:hover {
+  background: var(--container-bg);
+}
+
+.details-table tbody tr:last-child td {
+  border-bottom: none;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
 @media (max-width: 768px) {
   .app {
     padding: 30px 20px 40px;
@@ -504,6 +691,19 @@ input[type="number"]::-webkit-outer-spin-button {
   .toolbar {
     flex-wrap: wrap;
     padding: 12px;
+  }
+
+  .tabs-container {
+    gap: 4px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tab-button {
+    padding: 10px 16px;
+    font-size: 14px;
+    flex-shrink: 0;
   }
 
   h2 {
@@ -579,6 +779,15 @@ input[type="number"]::-webkit-outer-spin-button {
 
   .tenth-amount {
     font-size: 15px;
+  }
+
+  .tabs-container {
+    gap: 2px;
+  }
+
+  .tab-button {
+    padding: 8px 12px;
+    font-size: 13px;
   }
 
   .remaining {

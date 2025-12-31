@@ -1,19 +1,60 @@
 {
   "title": "Percentage Calculator",
-  "inputLabel": "Enter amount:",
+  "tabs": {
+    "payments": "Payments",
+    "charity": "Charity",
+    "investments": "Investments"
+  },
+  "inputLabel": "Enter income:",
   "inputPlaceholder": "For example: 100000",
   "resultsTitle": "Results:",
   "totalPercentagesLabel": "Total:",
   "remainingLabel": "Remaining:",
   "themeToggle": "Toggle theme",
   "settingsButton": "Settings",
-  "settingsTitle": "Percentage Settings",
+  "settingsTitle": "Settings",
+  "settingsTitleCharity": "Charity Settings",
+  "settingsTitlePayments": "Payments Settings",
+  "settingsTitleInvestments": "Investments Settings",
   "percentLabel": "Percentage",
   "addPercent": "Add percentage",
   "removePercent": "Remove percentage",
   "percentError": "Value must be between 1 and 100",
   "saveButton": "Save",
   "cancelButton": "Cancel",
-  "resetButton": "Reset to default"
+  "resetButton": "Reset to default",
+  "payments": {
+    "taxRateLabel": "Tax rate:",
+    "taxAmountLabel": "Tax amount:",
+    "taxFeeDeductedLabel": "Fee deducted:",
+    "salariesDeductedLabel": "Salaries deducted:",
+    "deductTaxFeeLabel": "Deduct tax fee",
+    "taxFeeLabel": "Tax fee:",
+    "deductSalariesLabel": "Deduct salaries",
+    "salariesLabel": "Salaries amount:",
+    "salariesPlaceholder": "For example: 50000"
+  },
+  "investments": {
+    "initialDepositLabel": "Initial deposit:",
+    "regularContributionLabel": "Regular contribution:",
+    "contributionFrequencyLabel": "Contribution frequency:",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "annualRateLabel": "Annual interest rate:",
+    "capitalizationLabel": "Interest capitalization:",
+    "periodLabel": "Accumulation period (years):",
+    "totalAmountLabel": "Total amount:",
+    "totalContributionsLabel": "Total contributed:",
+    "totalInterestLabel": "Total interest:",
+    "showDetailsLabel": "Show detailed table",
+    "contributionLabel": "Contribution",
+    "balanceBeforeLabel": "Balance before",
+    "interestLabel": "Interest",
+    "balanceAfterLabel": "Balance after",
+    "startLabel": "Start",
+    "monthLabel": "Month",
+    "yearLabel": "Year",
+    "tablePeriodLabel": "Period"
+  }
 }
 

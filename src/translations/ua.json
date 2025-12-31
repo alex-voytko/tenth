@@ -1,19 +1,60 @@
 {
   "title": "Калькулятор Відсотків",
-  "inputLabel": "Введіть суму:",
+  "tabs": {
+    "payments": "Платежі",
+    "charity": "Благодійність",
+    "investments": "Інвестиції"
+  },
+  "inputLabel": "Введіть дохід:",
   "inputPlaceholder": "Наприклад: 100000",
   "resultsTitle": "Результати:",
   "totalPercentagesLabel": "Сума:",
   "remainingLabel": "Залишок:",
   "themeToggle": "Перемкнути тему",
   "settingsButton": "Налаштування",
-  "settingsTitle": "Налаштування відсотків",
+  "settingsTitle": "Налаштування",
+  "settingsTitleCharity": "Налаштування благодійності",
+  "settingsTitlePayments": "Налаштування платежів",
+  "settingsTitleInvestments": "Налаштування інвестицій",
   "percentLabel": "Відсоток",
   "addPercent": "Додати відсоток",
   "removePercent": "Видалити відсоток",
   "percentError": "Значення має бути від 1 до 100",
   "saveButton": "Зберегти",
   "cancelButton": "Скасувати",
-  "resetButton": "Скинути до замовчування"
+  "resetButton": "Скинути до замовчування",
+  "payments": {
+    "taxRateLabel": "Податкова ставка:",
+    "taxAmountLabel": "Сума податку:",
+    "taxFeeDeductedLabel": "Віднято внесок:",
+    "salariesDeductedLabel": "Віднято зарплат:",
+    "deductTaxFeeLabel": "Відняти податковий внесок",
+    "taxFeeLabel": "Податковий внесок:",
+    "deductSalariesLabel": "Відняти зарплати",
+    "salariesLabel": "Сума зарплат:",
+    "salariesPlaceholder": "Наприклад: 50000"
+  },
+  "investments": {
+    "initialDepositLabel": "Початковий депозит:",
+    "regularContributionLabel": "Регулярний внесок:",
+    "contributionFrequencyLabel": "Періодичність:",
+    "monthly": "Помісячно",
+    "yearly": "Щорічно",
+    "annualRateLabel": "Річна відсоткова ставка:",
+    "capitalizationLabel": "Капіталізація відсотків:",
+    "periodLabel": "Період накопичення (років):",
+    "totalAmountLabel": "Загальна сума:",
+    "totalContributionsLabel": "Всього внесено:",
+    "totalInterestLabel": "Всього відсотків:",
+    "showDetailsLabel": "Показати детальну таблицю",
+    "contributionLabel": "Внесок",
+    "balanceBeforeLabel": "Баланс до",
+    "interestLabel": "Відсотки",
+    "balanceAfterLabel": "Баланс після",
+    "startLabel": "Початок",
+    "monthLabel": "Місяць",
+    "yearLabel": "Рік",
+    "tablePeriodLabel": "Період"
+  }
 }
 
